@@ -1,0 +1,5 @@
+gem 'pg'
+gem 'sequel'
+gem 'pgvector-ruby'
+gem 'hugging-face'
+gem 'dotenv'
