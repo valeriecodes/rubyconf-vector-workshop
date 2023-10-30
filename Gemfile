@@ -1,5 +1,7 @@
+source 'https://rubygems.org'
+
 gem 'pg'
 gem 'sequel'
-gem 'pgvector-ruby'
+gem 'pgvector'
 gem 'hugging-face'
 gem 'dotenv'
