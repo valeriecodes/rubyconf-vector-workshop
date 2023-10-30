@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base64 (0.1.1)
+    bigdecimal (3.1.4)
+    dotenv (2.8.1)
+    faraday (2.7.11)
+      base64
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.2)
+    hugging-face (0.3.4)
+      faraday (>= 1.0)
+    pg (1.5.4)
+    pgvector (0.2.2)
+    ruby2_keywords (0.0.5)
+    sequel (5.73.0)
+      bigdecimal
+
+PLATFORMS
+  x86_64-darwin-22
+
+DEPENDENCIES
+  dotenv
+  hugging-face
+  pg
+  pgvector
+  sequel
+
+BUNDLED WITH
+   2.4.10
